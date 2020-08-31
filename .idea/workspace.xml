@@ -13,17 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ba63ea-b212-4d93-920a-e0868b7a848e" name="Default Changelist" comment="29-08-20">
-      <change afterPath="$PROJECT_DIR$/resources/views/notifications/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/payments/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php999.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php999.iml" afterDir="false" />
+    <list default="true" id="39ba63ea-b212-4d93-920a-e0868b7a848e" name="Default Changelist" comment="30-08-20">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +169,15 @@
       <recent name="C:\xampp\htdocs\laravel\php999\resources\views" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="php artisan make:event  ProductPurchased" />
+      <command value="php artisan make:listener Award" />
+      <command value="php artisan make:listener SendCoupon -e ProductPurchased" />
+      <command value="php artisan make:listener Something-e ProductPurchased" />
+      <command value="php artisan make:listener Something -e ProductPurchased" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -198,7 +201,8 @@
       <workItem from="1598712891095" duration="260000" />
       <workItem from="1598713458069" duration="619000" />
       <workItem from="1598764501790" duration="3226000" />
-      <workItem from="1598799329843" duration="6259000" />
+      <workItem from="1598799329843" duration="6604000" />
+      <workItem from="1598879424232" duration="3207000" />
     </task>
     <task id="LOCAL-00001" summary="wfewef">
       <created>1598508504169</created>
@@ -221,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598712997427</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="30-08-20">
+      <created>1598805690309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598805690309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +255,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="27-8-20" />
     <MESSAGE value="27-08-20" />
-    <option name="LAST_COMMIT_MESSAGE" value="27-08-20" />
+    <MESSAGE value="30-08-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="30-08-20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="483" y="179" key="#Log_Highlighting_(ideolog)" timestamp="1598708518994">
@@ -259,26 +271,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="202" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1598710801748" />
-    <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1598800822827">
+    <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1598881119924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598800822827" />
+    <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598881119924" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598625740588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598625740588" />
+    <state width="662" height="681" key="GridCell.Tab.0.bottom" timestamp="1598881268313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="662" height="681" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598881268313" />
+    <state width="662" height="681" key="GridCell.Tab.0.center" timestamp="1598881268313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="662" height="681" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598881268313" />
+    <state width="662" height="681" key="GridCell.Tab.0.left" timestamp="1598881268313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="662" height="681" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598881268313" />
+    <state width="662" height="681" key="GridCell.Tab.0.right" timestamp="1598881268313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="662" height="681" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598881268313" />
     <state x="580" y="119" key="NewPhpClassDialog" timestamp="1598533139946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="580" y="119" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1598533139946" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1598714066428">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1598805725264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598714066428" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598805725264" />
     <state x="525" y="205" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1598800812092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="525" y="205" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1598800812092" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1598881233099">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598881233099" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598805323666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
